@@ -24,3 +24,6 @@ const tracer = require('dd-trace').init({
 ```
 
 
+to be sent to a Datadog Agent, which in turn sends it to the Datadog SaaS along with correlated logs
+
+[screenshot](https://a.cl.ly/nOu9D9JL)
