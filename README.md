@@ -34,7 +34,8 @@ It adds APM instrumentation in a few places as in Datadog's [Tracing Node.js App
 ```
 const tracer = require('dd-trace').init({
     env:"dev"
-    ,service:"homebridge-grsilver"
+    ,logInjection: true
+    ,service:"homebridge"
     ,version:"00.00.001"
     ,tags: {
         tag1:"val1"
