@@ -8,7 +8,7 @@ This repo is an attempt to build off of a dockerized image **FROM**
 
 **WHY Overall**:  Complete a path (similar to [...make everything HomeKit-compatible](https://www.the-ambient.com/guides/homebridge-setup-homekit-ultimate-guide-1915) )to use Raspberry Pi to control via my Apple Watch
  - Wiz Lightbulbs: [homebridge-wiz-lan] (https://github.com/kpsuperplane/homebridge-wiz-lan)
- - Kaza Lightbulbs & plugs: [homebridge-tplink-smarthome] (https://www.npmjs.com/package/homebridge-tplink-smarthome)
+ - Kaza Lightbulbs & plugs: [homebridge-tplink-smarthome](https://www.npmjs.com/package/homebridge-tplink-smarthome)
  - Multi Room Speaker groups via [airconnect](https://github.com/philippe44/AirConnect) which closes the gap between Google’s ChromeCast Audio + Apple Airplay 
  - Cameras
  - And monitor ( via Datadog) & with options for restarting via webhooks
