@@ -1,0 +1,19 @@
+version: '2'
+services:
+  homebridge: 
+    image: grsilver/homebridge-oznu-dd:v001
+    restart: always
+    network_mode: host
+    container_name: grsilver-homebridge
+    platform: linux/arm64/v8   
+    volumes:
+      - ./config:/homebridge
+    environment:
+      - TZ=America/New_York
+      - PGID=1000
+      - PUID=1000
+      - HOMEBRIDGE_CONFIG_UI=1
+      - HOMEBRIDGE_CONFIG_UI_PORT=8581
+      - DD_ENV="dev"
+      - DD_SERVICE="homebridge-grsilver"
+      - DD_VERSION="00.00.001"
