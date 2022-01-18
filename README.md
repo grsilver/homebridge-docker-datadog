@@ -51,13 +51,15 @@ to be sent to a Datadog Agent, which in turn sends it to the Datadog SaaS along 
 
 **Homebridge with DD Docker Build**
 
+I haven't sent this to any docker image cloud repo yet, so build it
+
 ```
 mkdir homebridge-docker-datadog
 cd homebridge-docker-datadog
 git clone https://github.com/grsilver/homebridge-docker-datadog.git
 docker build  \
  -t  \
- grsilver/homebridge-oznu-dd:v001  \
+ grsilver/homebridge-docker-datadog:v001  \
  .
 ```
 
