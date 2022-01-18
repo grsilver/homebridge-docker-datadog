@@ -48,6 +48,24 @@ to be sent to a Datadog Agent, which in turn sends it to the Datadog SaaS along 
 
 [screenshot](https://a.cl.ly/nOu9D9JL)
 
+**Homebridge with DD Docker Build**
+
+```
+mkdr homebridge-docker-datadog
+cd homebridge-docker-datadog
+git clone https://github.com/grsilver/homebridge-docker-datadog.git
+docker build  \
+ -t  \
+ grsilver/homebridge-oznu-b_pi-src_from_oznu:v002  \
+ .
+```
+
+**Hombreidge w DD Docker Run**
+
+```
+docker-compose up -d
+```
+
 **Agent Docker Run**
 
 ```
