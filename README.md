@@ -16,7 +16,7 @@ This repo is an attempt to build off of a dockerized image **FROM**
  Easily done via:
 
  - Install Ubuntu64 on PI
- - Install a Docker
+ - Install a Docker (optional: docker-compose, git)
  - run 3 containers ( [Datadog Agent](https://docs.datadoghq.com/agent/docker/?tab=standard), Homebridge, Airconnect) 
  - connect Apple Home
  - monitor performance via [Datadog’s **correlated**](https://www.datadoghq.com/blog/request-log-correlation/): 
