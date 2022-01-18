@@ -48,7 +48,7 @@ to be sent to a Datadog Agent, which in turn sends it to the Datadog SaaS along 
 
 [screenshot](https://a.cl.ly/nOu9D9JL)
 
-** Agent Docker Run **
+**Agent Docker Run**
 
 ```
 docker run -d --name datadog-agent \
