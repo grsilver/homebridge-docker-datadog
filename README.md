@@ -57,7 +57,7 @@ cd homebridge-docker-datadog
 git clone https://github.com/grsilver/homebridge-docker-datadog.git
 docker build  \
  -t  \
- grsilver/homebridge-oznu-b_pi-src_from_oznu:v002  \
+ grsilver/homebridge-oznu-dd:v001  \
  .
 ```
 
