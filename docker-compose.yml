@@ -1,7 +1,7 @@
 version: '2'
 services:
   homebridge: 
-    image: grsilver/homebridge-oznu-dd:v001
+    image: grsilver/homebridge-docker-datadog:v001
     restart: always
     network_mode: host
     container_name: grsilver-homebridge
