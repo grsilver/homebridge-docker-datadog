@@ -13,7 +13,7 @@ This repo is an attempt to build off of a dockerized image **FROM**
  - Cameras
  - And monitor ( via Datadog) & with options for restarting via webhooks
 
-Entire Set Up Workflow:
+Entire Set Up Workflow Summary:
 
  - Install Ubuntu64 on PI
  - Install Docker via apt (optional: docker-compose, git)
