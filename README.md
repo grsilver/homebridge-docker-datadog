@@ -3,7 +3,7 @@
 
 This repo is an attempt to build off of a dockerized image **FROM** 
 
- - oznu/[docker-homebridge](https://github.com/oznu/docker-homebridge/blob/master/Dockerfile) **Which inherits from: ** homebridge/[homebridge](https://github.com/homebridge/homebridge)
+ - oznu/[docker-homebridge](https://github.com/oznu/docker-homebridge/blob/master/Dockerfile) **Which inherits from:** homebridge/[homebridge](https://github.com/homebridge/homebridge)
  - And **ADD**: telemetry applied, specifically [Datadog APM](https://docs.datadoghq.com/tracing/) 
 
 **WHY Overall**:  Complete a path (similar to [...make everything HomeKit-compatible](https://www.the-ambient.com/guides/homebridge-setup-homekit-ultimate-guide-1915) )to use Raspberry Pi to control via my Apple Watch
